@@ -49,3 +49,12 @@ alias paql='php artisan queue:listen'
 alias paqr='php artisan queue:retry'
 alias paqt='php artisan queue:table'
 alias paqw='php artisan queue:work'
+alias paqrs='php artisan queue:restart'
+
+# Storage
+alias pasl='php artisan storage:link'
+alias pasul='php artisan storage:unlink'
+
+# Tinker
+alias tinker='php artisan tinker'
+

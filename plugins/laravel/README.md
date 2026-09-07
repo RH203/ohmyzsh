@@ -42,6 +42,7 @@ plugins=(... laravel)
 | `pamen` | `php artisan make:enum` |
 | `pami`  | `php artisan make:interface` |
 | `pamtr` | `php artisan make:trait` |
+| `pammig` | `php artisan make:migration` |
 | `pamv` | `php artisan make:view` |
 | `pammig` | `php artisan make:migration` |
 
@@ -65,3 +66,15 @@ plugins=(... laravel)
 | `paqr`  |  `php artisan queue:retry` |
 | `paqt`  |  `php artisan queue:table` |
 | `paqw`  |  `php artisan queue:work` |
+| `paqrs`  |  `php artisan queue:restart` |
+
+## Storage
+| Alias | Description |
+|:-:|:-:|
+| `pasl`  |  `php artisan storage:link` |
+| `pasul`  |  `php artisan storage:unlink` |
+
+## Tinker
+| Alias | Description |
+|:-:|:-:|
+| `tinker`  |  `php artisan tinker` |
